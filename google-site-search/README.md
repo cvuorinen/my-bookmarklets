@@ -14,7 +14,7 @@ JavaScript prompt dialog.
 
 Install the bookmarklet by adding this link to bookmarks (drag to bookmarks toolbar):
 
-<a href="javascript:q="%s";if(!q||q[0]=="%")q=""+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!q)q=prompt("Google Site Search");if(q!=null)location="http://www.google.com/search?q=site:"+escape(location.hostname)+"+"+escape(q.replace(/\s+/g,"+"));void 0;">`Google Site Search`</a>
+<a href="javascript:q="%s";if(!q||q[0]=="%")q=""+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!q)q=prompt("Google Site Search");if(q!=null)location="http://www.google.com/search?q=site:"+escape(location.hostname)+"+"+escape(q.replace(/\s+/g,"+"));void 0;">**Google Site Search**</a>
 
 Or by creating a new bookmark manually and copy-paste the following to the bookmark URL:
 
