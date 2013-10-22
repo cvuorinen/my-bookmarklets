@@ -1,0 +1,1 @@
+(function(){t='';if(window.clipboardData){c=window.clipboardData;t=c.getData('Text');c.setData('Text','');}if(!t){t=window.prompt('Paste:');}t=t.split(';');v=t[0].split(':');f=t[1].split(':');l=v.length;d=((f.length>l+1)?'window.'+f[l+1]+'.':'')+'document.'+f[l]+'.';for(i=0;i<l;i++){eval(d+f[i]).value=v[i];}})();
